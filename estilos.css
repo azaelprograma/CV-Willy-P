@@ -1,0 +1,257 @@
+/* Importamos las fuentes*/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+  * {
+    font-family: "Monserrat";
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* SECCION INICIO */
+  .inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("file:///C:/Users/WILMER/Desktop/Programar/Hojadevida/fotooficina.jpg");
+    background-size:cover;
+    background-position:center center;
+    color: #fff;
+  }
+  .inicio .info h1:hover {
+    color:rgb(73, 11, 218);
+
+  }
+  /** INICIO CONTENIDO SECCION**/
+  .inicio .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .inicio .contenido-seccion header {
+    padding: 30px;
+  }
+  /**MENU LATERAL**/
+  .inicio .contenido-seccion header nav {
+    position: fixed;
+    margin-left: 60px;
+    background-color:#43229c;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+  
+  }
+ 
+  .inicio .contenido-seccion header nav a {
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .inicio .contenido-seccion header nav a:hover {
+    box-shadow: 0 0 35px rgb(248, 248, 252)  
+  }
+  .inicio .contenido-seccion header .nav-bar {
+    position: fixed;
+    background-color: crimson;
+    font-size: 20px;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor:pointer;
+    transition: .3s;
+  }
+  .inicio .contenido-seccion header .nav-bar:hover {
+    box-shadow: 0 0 35px rgba(139, 0, 0, 0.747)
+  }
+  .inicio .contenido-seccion .info {
+    padding-bottom: 130px;
+  }
+  .inicio .contenido-seccion .info h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    font-style: oblique;
+  }
+  .inicio .contenido-seccion .info .redes {
+    margin: 20px 0;
+  }
+  .inicio .contenido-seccion .info .redes a {
+    display:inline-block;
+    text-decoration: none;
+    background-color: rgb(192, 113, 113);
+    color:#940253;
+    border: 1px solid #940253;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+  }
+
+  .inicio .contenido-seccion .info .redes a:hover {
+    color:#fff;
+    background-color: rgb(51, 49, 190);
+    box-shadow: 0 0 30px #f3ecec;
+
+  }
+   /**Puede que no use esto**/
+   .inicio .contenido-seccion .foto { 
+    position: relative;
+  }
+  /**Puede que no use esto**/
+  .inicio .contenido-seccion .foto img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20%;
+    border: 5px solid #885dd8;
+    position: absolute;
+    left: 40%;
+    top: -2px;
+  }
+
+/** estilos generales**/
+.titulo-seccion {
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  /* SECCION ACERCA DE MI */
+  .acercademi {
+    padding: 140px 0 100px;
+    background-color: #e6e6e6;
+    text-align: center; 
+   
+  }
+  .acercademi .contenido-seccion {
+    max-width: 1000px; 
+    margin: auto;
+    padding: 0 10px;
+  }
+  .acercademi .contenido-seccion h3 {
+    text-transform:uppercase;
+    font-size: 30px;
+  }
+  .acercademi .contenido-seccion .experiencia {
+    
+    width: auto;
+    height: 35px;
+    border: 10px solid rgb(144, 105, 233);
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+  
+}
+  .acercademi .contenido-seccion .especial {
+    font-size: 1.5rem;
+    color:#43229c;
+    font-weight: bold;
+    margin-top: 15px;
+  
+  }
+  .acercademi .contenido-seccion .fila {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .acercademi .contenido-seccion .fila .col {
+    width: 30%;
+  }
+  .acercademi .contenido-seccion .fila .col i {
+    color: #5e44f0;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #5e44f0;
+    line-height: 40px;
+    border-radius: 50%;
+  }
+  .acercademi .contenido-seccion .fila span {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  .acercademi .contenido-seccion .fila .col .grados {
+    width: 250px;
+    height: 120px;
+    border: 10px solid rgb(144, 105, 233);
+    padding: 15px;
+    margin: 12px;
+    text-align:justify
+  }
+/**SECCION HABILIDADES**/
+  .habilidades {
+    padding: 100px 0 100px;
+    text-align: center;
+  }
+  .habilidades .contenido-seccion .especial {
+    font-size: 1.5rem;
+    color:#43229c;
+    font-weight: bold;
+    margin-top: 15px;
+  
+  }
+  .habilidades {
+    padding: 15px;
+    background-color: #e6e6e6;
+    text-align: center; }
+
+  .habilidades .contenido-seccion .trayectoria {
+    width: auto;
+    height: 100px;
+    border: 10px solid rgb(144, 105, 233);
+    padding: 15px;
+    margin: 80px;
+    text-align: left;
+  }
+  .contacto {
+    padding: 140px 0 100px;
+    background-color: #e6e6e6;
+    text-align: center; }
+
+  
+  .contacto .contenido-seccion .contactame {
+    font-size: 1.5rem;
+    color:#43229c;
+    font-weight: bold;
+    margin-top: 15px;
+    margin: 0 auto;
+  
+  }
+  /**SECCION CONTACTO**/
+  .contacto .contenido-seccion .miscontactos {
+    
+    width: auto;
+    height: 35px;
+    border: 10px solid rgb(144, 105, 233);
+    padding: 15px;
+    margin: 80px;
+    text-align: center; 
+  }
+
+  footer {
+    background-color: #beb0b0;
+    padding: 3rem;
+    color: #0dc76a;
+    font-size: 20px;
+  }
+  footer section {
+    float: right;
+  }
+
+  footer a {
+    transition: color 0.3 ease;
+    color: #411791;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: cornflowerblue
+  }
+  #contact {
+    color:#050113de
+  }
